@@ -268,4 +268,36 @@ body::after {
   .section {
     padding: 16px 18px;
   }
+}.motivasi {
+    background: linear-gradient(135deg, #f0f4ff, #e8f0fe);
+    border-left: 4px solid #4a6cf7;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.quote-box {
+    position: relative;
+    padding: 10px 20px;
+}
+
+.quote-mark {
+    font-size: 60px;
+    color: #4a6cf7;
+    opacity: 0.3;
+    font-family: Georgia, serif;
+    line-height: 0;
+    vertical-align: -20px;
+}
+
+.quote-mark.closing {
+    display: block;
+    text-align: right;
+    vertical-align: 10px;
+}
+
+.motivasi p {
+    font-style: italic;
+    color: #444;
+    line-height: 1.8;
+    margin: 0 10px;
 }
